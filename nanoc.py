@@ -22,10 +22,13 @@ for valor in range(1,11, 1):
     print(str(tabuada)+ " x " + str(valor) + " = " + str((tabuada*valor)))
 """
 #-------------------------------------
-""" VARIÁVEIS E LISTAS 
+""" VARIÁVEIS E LISTAS """
 
 #CRIAR A LISTA DO QUE EU QUERO
-inventario = []
+equipamento = []
+valor = []
+serial = []
+departamento = []
 
 #A RESPOSTA DEVE SER = SIM
 resposta = "SIM"
@@ -33,12 +36,16 @@ resposta = "SIM"
 #WHILE 
 while resposta == "SIM":
     #APPEND SERVE PARA INSERIR DENTRO DA LISTA ! 
-    inventario.append(input("Equipamento: "))
-    inventario.append(float(input("Valor: ")))
-    inventario.append(int(input("Número serial: ")))
-    inventario.append(input("Departamento: "))
+    equipamento.append(input("Equipamento: "))
+    valor.append(float(input("Valor: ")))
+    serial.append(int(input("Número serial: ")))
+    departamento.append(input("Departamento: "))
     resposta = input("Digite \"SIM\" para continuar: ").upper()
 
-for elemento in inventario:
-    print(elemento)
-"""
+#EXIBIÇÃO
+for indice in range(0, len(equipamento)): #Len é usado para retornar o número de itens (o comprimento) de um objeto
+    print("\nEQUIPAMENTO: ", (indice+1))
+    print("Nome: ", (equipamento[indice]))
+    print("Valor: ", (valor[indice]))
+    print("Serial: ", (serial[indice]))
+    print("Departamento: ", (departamento[indice]))
