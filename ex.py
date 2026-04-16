@@ -60,3 +60,5 @@ if jogador["vida"] > 0:
     print(f"\n{jogador['personagem']} venceu!")
 else:
     print(f"\n{inimigo['personagem']} venceu!")
+
+#TENHO PONTOS A MELHORAR, NÃO PENSE QUE FIZ TUDO SOZINHO O CÓDIGO. :)
