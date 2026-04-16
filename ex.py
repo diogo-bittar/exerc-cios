@@ -9,14 +9,14 @@ print(" ")
 
 #Lista do conteúdo do jogo
 jogo = [
-    {"personagem": "Mordecai", "vida": 100 ,"ataque": (20, 30)},
-    {"personagem": "Rigby", "vida": 100, "ataque": (20, 30)}
+    {"personagem": "Mario", "vida": 100 ,"ataque": (20, 30)},
+    {"personagem": "Luigi", "vida": 100, "ataque": (20, 30)}
 ]
 
 #Exibição do menu de personagem
 print("\tPERSONAGENS"
-             "\n\t1. MORDECAI"
-             "\n\t2.RIGBY")
+             "\n\t1. MARIO"
+             "\n\t2.LUIGI")
 
 #Escolha do personagem (com validação)
 while True:
