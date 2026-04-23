@@ -18,4 +18,5 @@ print(usuarios)
 
 #Get --> Pegar
 print('####---####')
-print(usuarios.get('chaves'))
+print(usuarios.get('quico'))
+print(usuarios['quico'])
