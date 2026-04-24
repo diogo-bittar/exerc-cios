@@ -1,6 +1,6 @@
 """
-Aula sobre dicionário 
-"""
+Aula sobre dicionário -- INTRODUÇÃO
+
 #Criação do nosso dicionário de login
 usuarios = {}
 
@@ -20,3 +20,20 @@ print(usuarios)
 print('####---####')
 print(usuarios.get('quico'))
 print(usuarios['quico'])
+"""
+#-----------------------------------------------------------------
+""" 
+Aula sobre dicionário em pacotes -- AULA 2
+"""
+
+usuarios = {}
+
+opcao = input("Selecione um opção\n"+
+              "<I> - Inserir um usuário\n"+
+              "<P> - Pesquisar um usuário\n"+
+              "<E> - Excluir um usuário\n"+
+              "<L> - Listar um usuário").upper()
+
+while opcao == "I" or opcao == "P" or opcao == "E" or opcao == "L":
+    if opcao == "I":
+        chave = print
