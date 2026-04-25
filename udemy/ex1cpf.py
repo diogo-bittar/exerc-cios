@@ -33,7 +33,33 @@ O 1o dígito é 7.
 
 #CÁLCULO DO 1o DÍGITO
 
-cpf_enviado = '74682489070'
+#Replace --> serve para substituir valores por outro
+
+#Também consigo importar uma função chamada RE para tirar tudo que eu quiser
+
+import re
+
+#Importar um método para sair do python
+import sys 
+
+"""cpf_enviado = '746.824.890-70' \
+    .replace(".", "") \
+    .replace(" ", "") \
+    .replace("-", " ")"""
+
+entrada = input('CPF[786.824.890-70]: ')
+#Utilizando a função RE
+cpf_enviado = re.sub(
+    r'[^0-9]', #retirar tudo aquilo que não for um número. ^
+    '',
+    entrada
+)
+
+entrada_sequencial = entrada == entrada[0] * len(entrada) #verificando se o usuário enviou dados sequenciais 
+
+if entrada_sequencial: #caso tenha enviado --> sair 
+    sys.exit()
+
 nove_digitos = cpf_enviado[:9]
 cont_regressivo_1 = 10
 resultado1 = 0
