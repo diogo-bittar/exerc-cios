@@ -20,13 +20,13 @@ print("\tPERSONAGENS"
 
 #Escolha do personagem (com validação)
 while True:
-    personagem = input("Selecione o seu personagem (Mordecai/Rigby): ").upper()
+    personagem = input("Selecione o seu personagem (Mario/Luigi): ").upper()
     
-    if personagem == "MORDECAI":
+    if personagem == "MARIO":
         jogador = jogo[0]
         inimigo = jogo[1]
         break
-    elif personagem == "RIGBY":
+    elif personagem == "LUIGI":
         jogador = jogo[1]
         inimigo = jogo[0]
         break
