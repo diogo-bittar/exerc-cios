@@ -47,5 +47,5 @@ print(sum(list))
 print(max(list))
 print(min(list))"""
 
-#EX 4
+
 
