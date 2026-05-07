@@ -77,7 +77,12 @@ do{
     
 }while(civil !== "S" && civil !== "C" && civil !== "V" && civil !== "D")
 
-alert(`Suas informações abaixo:\nNOME:${nome}\nIDADE:${idade}\nGÊNERO:${genero}\nSALÁRIO:${salario}\nESTADO CIVIL:${civil}`)
+alert(`Suas informações abaixo:
+    \nNOME:${nome}
+    \nIDADE:${idade}
+    \nGÊNERO:${genero}
+    \nSALÁRIO:${salario}
+    \nESTADO CIVIL:${civil}`)
 //----------------------------------------------------------------------------------
 //ex 3
 
