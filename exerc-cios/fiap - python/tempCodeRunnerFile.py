@@ -1,3 +1,5 @@
+import random
+
 lista = []
 
 while len(lista) < 10:
