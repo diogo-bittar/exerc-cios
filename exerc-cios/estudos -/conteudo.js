@@ -2,31 +2,31 @@
 // //----------------------//
 // 1.
 // Tipos de alerta;
-// alert();
-// prompt();
-// confirm();
+alert();
+prompt();
+confirm();
 
-// //----------------------//
+//----------------------//
 // Console.log vai ser o mais utilizado na CP
 // Console.log() --> serve para interagir em tempo real com o JS em uma página WEB
 
-// //----------------------//
+//----------------------//
 
 // Variáveis;
-// let // var // const
+let // var // const
 
-// var name = "diogo";
-// let age = "18";  o valor pode variar
-// const pi = 3.142; valor fixo
+var name = "diogo";
+let age = "18";  //o valor pode variar
+const pi = 3.142; //valor fixo
 // -----------------------------------------
 // Exercício pós sessão;
-// let nome = prompt('Informe o seu nome: ');
+let nome = prompt('Informe o seu nome: ');
 
-// let idade = Number(prompt('Informe a sua idade: '));
+let idade = Number(prompt('Informe a sua idade: '));
 
-// let profissao = prompt('Qual a sua profissão?: ');
+let profissao = prompt('Qual a sua profissão?: ');
 
-// alert(`Olá ${nome}, você tem ${idade} anos e a sua profissão é ${profissao}.`);
+alert(`Olá ${nome}, você tem ${idade} anos e a sua profissão é ${profissao}.`);
 
 //----------------------------------------//
 // 2. Operadores e condicionais.
@@ -43,33 +43,33 @@
 // %% 'e'
 // || "ou"
 // ! "não"
-//ex 1
+// ex 1
 
-// let distanciaMetros = Number(prompt('Informe uma distância em metros: '));
+let distanciaMetros = Number(prompt('Informe uma distância em metros: '));
 
-// let distanciaCentimetros = distanciaMetros * 100;
+let distanciaCentimetros = distanciaMetros * 100;
 
-// alert(`Distância em cm: ${distanciaCentimetros}cm.`);
+alert(`Distância em cm: ${distanciaCentimetros}cm.`);
 //--------------------------------------------//
 // === ENTRADA ===
-// let peso = Number(prompt("Digite seu peso em kg:"));
-// let altura = Number(prompt("Digite sua altura em metros:"));
+let peso = Number(prompt("Digite seu peso em kg:"));
+let altura = Number(prompt("Digite sua altura em metros:"));
 
-// // === PROCESSAMENTO ===
-// let imc = peso / (altura * altura);
+// === PROCESSAMENTO ===
+let imc = peso / (altura * altura);
 
-// // === SAÍDA ===
-// alert(`Seu IMC é: ${imc.toFixed(2)}`);
+// === SAÍDA ===
+alert(`Seu IMC é: ${imc.toFixed(2)}`);
 
 // 0bs: o toFixed(2) é usado para limitar o número de casas decimais a 2,
 // tornando a saída mais legível.
 
-//Operadores - ex 2
-// let peso = Number(prompt("Informe o peso do produto em gramas (g): "));
+// Operadores - ex 2
+let peso = Number(prompt("Informe o peso do produto em gramas (g): "));
 
-// let preco = (peso / 100) * 5;
+let preco = (peso / 100) * 5;
 
-// alert(`Total: ${preco.toFixed(2)}.`);
+alert(`Total: ${preco.toFixed(2)}.`);
 
 
 //--------------------------------------//
