@@ -50,3 +50,4 @@ alert(`Confira as informações abaixo:\n
     DESCONTO:${desconto}\n
     CATEGORIA:${categoria}\n
     PAGAMENTO:${pagamento}`)
+//-----------------------------------------------------------//
