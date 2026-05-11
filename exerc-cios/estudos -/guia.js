@@ -60,10 +60,11 @@ function exemploDados() {
  * DESAFIO 1: Contagem Regressiva
  * Lógica: Validar se é número, se é positivo e inteiro. Loop while decrementando.
  */
-function desafio1(input) {
-    const num = Number(input);
+function desafio1() {
+    const num = Number(prompt('Informe um número: '));
     if (Number.isNaN(num) || num <= 0 || !Number.isInteger(num)) {
-        return console.error("Número inválido! Digite um inteiro positivo.");
+        console.error("Número inválido! Digite um inteiro positivo.");
+        return;
     }
     let i = num;
     while (i >= 1) {
@@ -131,4 +132,5 @@ function desafio5(n) {
     }
     console.log(`Os divisores de ${n} são: ${lista}`);
 }
+
 
