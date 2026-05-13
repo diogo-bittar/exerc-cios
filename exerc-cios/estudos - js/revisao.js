@@ -49,5 +49,10 @@ do{
     }
 }while(pagamento !== "D" && pagamento !== "C" && pagamento !== "P");
 
-alert(`Confira as informações abaixo:\nPRODUTO: ${produto}\nQUANTIDADE: ${quantidade}\nDESCONTO: ${desconto}%\nCATEGORIA: ${categoria}\nPAGAMENTO: ${pagamento}`);
+alert(`Confira as informações abaixo:\n
+    PRODUTO: ${produto}\n
+    QUANTIDADE: ${quantidade}\n
+    DESCONTO: ${desconto}%\n
+    CATEGORIA: ${categoria}\n
+    PAGAMENTO: ${pagamento}`);
 //-----------------------------------------------------------//
