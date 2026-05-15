@@ -1,8 +1,20 @@
-import funcoes
+from funcoes import perguntar, inserir, pesquisar, excluir, listar
 
-users = []
+usuarios = {}
 
-perguntar()
+while True:
+    opcao = perguntar()
 
-while opcao == "I" or opcao == "P" or opcao == "E" or opcao == "L":
-    ...
+    if opcao == "I":
+        inserir(usuarios)
+    elif opcao == "P":
+        pesquisar(usuarios)
+    elif opcao == "E":
+        excluir(usuarios)
+    elif opcao == "L":
+        listar(usuarios)
+    elif opcao == "S":
+        print("Saindo...")
+        break
+    else:
+        print("Opção inválida. Digite I, P, E, L ou S.\n")
